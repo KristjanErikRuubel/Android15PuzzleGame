@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d4ff7f"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/row1button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/game_button_bckground"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row1button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/game_button_bckground"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:text="- " />
+
+            <Button
+                android:id="@+id/row1button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/game_button_bckground"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row1button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/row2Button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row2Button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row2Button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row2Button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/row3Button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row3Button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row3Button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row3Button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/row4Button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row4Button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row4Button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/row4Button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:background="@drawable/game_button_bckground"
+                android:text="-" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
